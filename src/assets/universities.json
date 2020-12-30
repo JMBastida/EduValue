@@ -1,0 +1,666 @@
+[
+  {
+    "universidad": "Alicante",
+    "codigo_universidad": "001",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Comunitat Valenciana",
+    "provincia_sede": "ALICANTE/ALACANT"
+  },
+  {
+    "universidad": "Extremadura",
+    "codigo_universidad": "002",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Extremadura",
+    "provincia_sede": "BADAJOZ"
+  },
+  {
+    "universidad": "Illes Balears (Les)",
+    "codigo_universidad": "003",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Balears (Illes)",
+    "provincia_sede": "ILLES BALEARS"
+  },
+  {
+    "universidad": "Barcelona",
+    "codigo_universidad": "004",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Cataluña",
+    "provincia_sede": "BARCELONA"
+  },
+  {
+    "universidad": "Cádiz",
+    "codigo_universidad": "005",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Andalucía",
+    "provincia_sede": "CÁDIZ"
+  },
+  {
+    "universidad": "Córdoba",
+    "codigo_universidad": "006",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Andalucía",
+    "provincia_sede": "CÓRDOBA"
+  },
+  {
+    "universidad": "Santiago de Compostela",
+    "codigo_universidad": "007",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Galicia",
+    "provincia_sede": "A CORUÑA"
+  },
+  {
+    "universidad": "Granada",
+    "codigo_universidad": "008",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Andalucía",
+    "provincia_sede": "GRANADA"
+  },
+  {
+    "universidad": "León",
+    "codigo_universidad": "009",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Castilla y León",
+    "provincia_sede": "LEÓN"
+  },
+  {
+    "universidad": "Complutense de Madrid",
+    "codigo_universidad": "010",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Madrid (Comunidad de)",
+    "provincia_sede": "MADRID"
+  },
+  {
+    "universidad": "Málaga",
+    "codigo_universidad": "011",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Andalucía",
+    "provincia_sede": "MÁLAGA"
+  },
+  {
+    "universidad": "Murcia",
+    "codigo_universidad": "012",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Murcia (Región de)",
+    "provincia_sede": "MURCIA"
+  },
+  {
+    "universidad": "Oviedo",
+    "codigo_universidad": "013",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Asturias (Principado de)",
+    "provincia_sede": "ASTURIAS"
+  },
+  {
+    "universidad": "Salamanca",
+    "codigo_universidad": "014",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Castilla y León",
+    "provincia_sede": "SALAMANCA"
+  },
+  {
+    "universidad": "La Laguna",
+    "codigo_universidad": "015",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Canarias",
+    "provincia_sede": "SANTA CRUZ DE TENERIFE"
+  },
+  {
+    "universidad": "Cantabria",
+    "codigo_universidad": "016",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Cantabria",
+    "provincia_sede": "CANTABRIA"
+  },
+  {
+    "universidad": "Sevilla",
+    "codigo_universidad": "017",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Andalucía",
+    "provincia_sede": "SEVILLA"
+  },
+  {
+    "universidad": "València (Estudi General)",
+    "codigo_universidad": "018",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Comunitat Valenciana",
+    "provincia_sede": "VALENCIA/VALÈNCIA"
+  },
+  {
+    "universidad": "Valladolid",
+    "codigo_universidad": "019",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Castilla y León",
+    "provincia_sede": "VALLADOLID"
+  },
+  {
+    "universidad": "País Vasco/Euskal Herriko Unibertsitatea",
+    "codigo_universidad": "020",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "País Vasco",
+    "provincia_sede": "BIZKAIA"
+  },
+  {
+    "universidad": "Zaragoza",
+    "codigo_universidad": "021",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Aragón",
+    "provincia_sede": "ZARAGOZA"
+  },
+  {
+    "universidad": "Autónoma de Barcelona",
+    "codigo_universidad": "022",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Cataluña",
+    "provincia_sede": "BARCELONA"
+  },
+  {
+    "universidad": "Autónoma de Madrid",
+    "codigo_universidad": "023",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Madrid (Comunidad de)",
+    "provincia_sede": "MADRID"
+  },
+  {
+    "universidad": "Politécnica de Catalunya",
+    "codigo_universidad": "024",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Cataluña",
+    "provincia_sede": "BARCELONA"
+  },
+  {
+    "universidad": "Politécnica de Madrid",
+    "codigo_universidad": "025",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Madrid (Comunidad de)",
+    "provincia_sede": "MADRID"
+  },
+  {
+    "universidad": "Las Palmas de Gran Canaria",
+    "codigo_universidad": "026",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Canarias",
+    "provincia_sede": "LAS PALMAS"
+  },
+  {
+    "universidad": "Politècnica de València",
+    "codigo_universidad": "027",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Comunitat Valenciana",
+    "provincia_sede": "VALENCIA/VALÈNCIA"
+  },
+  {
+    "universidad": "Nacional de Educación a Distancia",
+    "codigo_universidad": "028",
+    "tipo_universidad": "Pública",
+    "presencialidad": "No Presencial",
+    "comunidad_autonoma": "Estado",
+    "provincia_sede": "MADRID"
+  },
+  {
+    "universidad": "Alcalá",
+    "codigo_universidad": "029",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Madrid (Comunidad de)",
+    "provincia_sede": "MADRID"
+  },
+  {
+    "universidad": "Deusto",
+    "codigo_universidad": "030",
+    "tipo_universidad": "Privada",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "País Vasco",
+    "provincia_sede": "BIZKAIA"
+  },
+  {
+    "universidad": "Navarra",
+    "codigo_universidad": "031",
+    "tipo_universidad": "Privada",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Navarra (Comunidad Foral de)",
+    "provincia_sede": "NAVARRA"
+  },
+  {
+    "universidad": "Pontificia de Salamanca",
+    "codigo_universidad": "032",
+    "tipo_universidad": "Privada",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Castilla y León",
+    "provincia_sede": "SALAMANCA"
+  },
+  {
+    "universidad": "Pontificia Comillas",
+    "codigo_universidad": "033",
+    "tipo_universidad": "Privada",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Madrid (Comunidad de)",
+    "provincia_sede": "MADRID"
+  },
+  {
+    "universidad": "Castilla_La Mancha",
+    "codigo_universidad": "034",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Castilla _ La Mancha",
+    "provincia_sede": "CIUDAD REAL"
+  },
+  {
+    "universidad": "Pública de Navarra",
+    "codigo_universidad": "035",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Navarra (Comunidad Foral de)",
+    "provincia_sede": "NAVARRA"
+  },
+  {
+    "universidad": "Carlos III de Madrid",
+    "codigo_universidad": "036",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Madrid (Comunidad de)",
+    "provincia_sede": "MADRID"
+  },
+  {
+    "universidad": "A Coruña",
+    "codigo_universidad": "037",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Galicia",
+    "provincia_sede": "A CORUÑA"
+  },
+  {
+    "universidad": "Vigo",
+    "codigo_universidad": "038",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Galicia",
+    "provincia_sede": "PONTEVEDRA"
+  },
+  {
+    "universidad": "Pompeu Fabra",
+    "codigo_universidad": "039",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Cataluña",
+    "provincia_sede": "BARCELONA"
+  },
+  {
+    "universidad": "Jaume I de Castellón",
+    "codigo_universidad": "040",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Comunitat Valenciana",
+    "provincia_sede": "CASTELLÓN/CASTELLÓ"
+  },
+  {
+    "universidad": "Ramón Llull",
+    "codigo_universidad": "041",
+    "tipo_universidad": "Privada",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Cataluña",
+    "provincia_sede": "BARCELONA"
+  },
+  {
+    "universidad": "Rovira i Virgili",
+    "codigo_universidad": "042",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Cataluña",
+    "provincia_sede": "TARRAGONA"
+  },
+  {
+    "universidad": "Girona",
+    "codigo_universidad": "043",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Cataluña",
+    "provincia_sede": "GIRONA"
+  },
+  {
+    "universidad": "Lleida",
+    "codigo_universidad": "044",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Cataluña",
+    "provincia_sede": "LLEIDA"
+  },
+  {
+    "universidad": "La Rioja",
+    "codigo_universidad": "045",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Rioja (La)",
+    "provincia_sede": "LA RIOJA"
+  },
+  {
+    "universidad": "San Pablo_CEU",
+    "codigo_universidad": "046",
+    "tipo_universidad": "Privada",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Madrid (Comunidad de)",
+    "provincia_sede": "MADRID"
+  },
+  {
+    "universidad": "Alfonso X El Sabio",
+    "codigo_universidad": "047",
+    "tipo_universidad": "Privada",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Madrid (Comunidad de)",
+    "provincia_sede": "MADRID"
+  },
+  {
+    "universidad": "Almería",
+    "codigo_universidad": "048",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Andalucía",
+    "provincia_sede": "ALMERÍA"
+  },
+  {
+    "universidad": "Huelva",
+    "codigo_universidad": "049",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Andalucía",
+    "provincia_sede": "HUELVA"
+  },
+  {
+    "universidad": "Jaén",
+    "codigo_universidad": "050",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Andalucía",
+    "provincia_sede": "JAÉN"
+  },
+  {
+    "universidad": "Burgos",
+    "codigo_universidad": "051",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Castilla y León",
+    "provincia_sede": "BURGOS"
+  },
+  {
+    "universidad": "Antonio de Nebrija",
+    "codigo_universidad": "052",
+    "tipo_universidad": "Privada",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Madrid (Comunidad de)",
+    "provincia_sede": "MADRID"
+  },
+  {
+    "universidad": "Europea de Madrid",
+    "codigo_universidad": "053",
+    "tipo_universidad": "Privada",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Madrid (Comunidad de)",
+    "provincia_sede": "MADRID"
+  },
+  {
+    "universidad": "Oberta de Catalunya",
+    "codigo_universidad": "054",
+    "tipo_universidad": "Privada",
+    "presencialidad": "No Presencial",
+    "comunidad_autonoma": "Cataluña",
+    "provincia_sede": "BARCELONA"
+  },
+  {
+    "universidad": "Miguel Hernández de Elche",
+    "codigo_universidad": "055",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Comunitat Valenciana",
+    "provincia_sede": "ALICANTE/ALACANT"
+  },
+  {
+    "universidad": "Rey Juan Carlos",
+    "codigo_universidad": "056",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Madrid (Comunidad de)",
+    "provincia_sede": "MADRID"
+  },
+  {
+    "universidad": "IE universidad",
+    "codigo_universidad": "057",
+    "tipo_universidad": "Privada",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Castilla y León",
+    "provincia_sede": "SEGOVIA"
+  },
+  {
+    "universidad": "Pablo de Olavide",
+    "codigo_universidad": "058",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Andalucía",
+    "provincia_sede": "SEVILLA"
+  },
+  {
+    "universidad": "Católica Santa Teresa de Jesús de Ávila",
+    "codigo_universidad": "059",
+    "tipo_universidad": "Privada",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Castilla y León",
+    "provincia_sede": "ÁVILA"
+  },
+  {
+    "universidad": "Vic_Central de Catalunya",
+    "codigo_universidad": "060",
+    "tipo_universidad": "Privada",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Cataluña",
+    "provincia_sede": "BARCELONA"
+  },
+  {
+    "universidad": "Mondragón Unibertsitatea",
+    "codigo_universidad": "061",
+    "tipo_universidad": "Privada",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "País Vasco",
+    "provincia_sede": "GIPUZKOA"
+  },
+  {
+    "universidad": "Internacional de Catalunya",
+    "codigo_universidad": "062",
+    "tipo_universidad": "Privada",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Cataluña",
+    "provincia_sede": "BARCELONA"
+  },
+  {
+    "universidad": "Internacional de Andalucía",
+    "codigo_universidad": "063",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Especial",
+    "comunidad_autonoma": "Andalucía",
+    "provincia_sede": "SEVILLA"
+  },
+  {
+    "universidad": "Politécnica de Cartagena",
+    "codigo_universidad": "064",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Murcia (Región de)",
+    "provincia_sede": "MURCIA"
+  },
+  {
+    "universidad": "Camilo José Cela",
+    "codigo_universidad": "065",
+    "tipo_universidad": "Privada",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Madrid (Comunidad de)",
+    "provincia_sede": "MADRID"
+  },
+  {
+    "universidad": "Católica San Antonio",
+    "codigo_universidad": "066",
+    "tipo_universidad": "Privada",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Murcia (Región de)",
+    "provincia_sede": "MURCIA"
+  },
+  {
+    "universidad": "Cardenal Herrera_CEU",
+    "codigo_universidad": "067",
+    "tipo_universidad": "Privada",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Comunitat Valenciana",
+    "provincia_sede": "VALENCIA/VALÈNCIA"
+  },
+  {
+    "universidad": "Francisco de Vitoria",
+    "codigo_universidad": "068",
+    "tipo_universidad": "Privada",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Madrid (Comunidad de)",
+    "provincia_sede": "MADRID"
+  },
+  {
+    "universidad": "Europea Miguel de Cervantes",
+    "codigo_universidad": "069",
+    "tipo_universidad": "Privada",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Castilla y León",
+    "provincia_sede": "VALLADOLID"
+  },
+  {
+    "universidad": "Abat Oliba CEU",
+    "codigo_universidad": "070",
+    "tipo_universidad": "Privada",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Cataluña",
+    "provincia_sede": "BARCELONA"
+  },
+  {
+    "universidad": "Internacional Menéndez Pelayo",
+    "codigo_universidad": "071",
+    "tipo_universidad": "Pública",
+    "presencialidad": "Especial",
+    "comunidad_autonoma": "Estado",
+    "provincia_sede": "MADRID"
+  },
+  {
+    "universidad": "Católica de Valencia San Vicente Mártir",
+    "codigo_universidad": "072",
+    "tipo_universidad": "Privada",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Comunitat Valenciana",
+    "provincia_sede": "VALENCIA/VALÈNCIA"
+  },
+  {
+    "universidad": "San Jorge",
+    "codigo_universidad": "073",
+    "tipo_universidad": "Privada",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Aragón",
+    "provincia_sede": "ZARAGOZA"
+  },
+  {
+    "universidad": "A Distancia de Madrid",
+    "codigo_universidad": "074",
+    "tipo_universidad": "Privada",
+    "presencialidad": "No Presencial",
+    "comunidad_autonoma": "Madrid (Comunidad de)",
+    "provincia_sede": "MADRID"
+  },
+  {
+    "universidad": "Internacional Valenciana",
+    "codigo_universidad": "076",
+    "tipo_universidad": "Privada",
+    "presencialidad": "No Presencial",
+    "comunidad_autonoma": "Comunitat Valenciana",
+    "provincia_sede": "VALENCIA/VALÈNCIA"
+  },
+  {
+    "universidad": "Internacional de La Rioja",
+    "codigo_universidad": "077",
+    "tipo_universidad": "Privada",
+    "presencialidad": "No Presencial",
+    "comunidad_autonoma": "Rioja (La)",
+    "provincia_sede": "LA RIOJA"
+  },
+  {
+    "universidad": "Europea de Canarias",
+    "codigo_universidad": "079",
+    "tipo_universidad": "Privada",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Canarias",
+    "provincia_sede": "SANTA CRUZ DE TENERIFE"
+  },
+  {
+    "universidad": "Internacional Isabel I de Castilla",
+    "codigo_universidad": "080",
+    "tipo_universidad": "Privada",
+    "presencialidad": "No Presencial",
+    "comunidad_autonoma": "Castilla y León",
+    "provincia_sede": "BURGOS"
+  },
+  {
+    "universidad": "Loyola Andalucía",
+    "codigo_universidad": "081",
+    "tipo_universidad": "Privada",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Andalucía",
+    "provincia_sede": "SEVILLA"
+  },
+  {
+    "universidad": "Europea de Valencia",
+    "codigo_universidad": "082",
+    "tipo_universidad": "Privada",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Comunitat Valenciana",
+    "provincia_sede": "VALENCIA/VALÈNCIA"
+  },
+  {
+    "universidad": "Europea del Atlántico",
+    "codigo_universidad": "083",
+    "tipo_universidad": "Privada",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Cantabria",
+    "provincia_sede": "CANTABRIA"
+  },
+  {
+    "universidad": "Fernando Pessoa_Canarias (UFP_C)",
+    "codigo_universidad": "084",
+    "tipo_universidad": "Privada",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Canarias",
+    "provincia_sede": "LAS PALMAS"
+  },
+  {
+    "universidad": "Atlántico Medio",
+    "codigo_universidad": "085",
+    "tipo_universidad": "Privada",
+    "presencialidad": "Presencial",
+    "comunidad_autonoma": "Canarias",
+    "provincia_sede": "LAS PALMAS"
+  }
+]

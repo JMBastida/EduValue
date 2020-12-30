@@ -1,0 +1,25 @@
+<accordion [isAnimated]="true">
+  <accordion-group class="w-100">
+    <h4 accordion-heading (click)="accordionStatus = !accordionStatus">
+      Filtros de Busqueda
+      <i class="tim-icons icon-minimal-down" *ngIf="!accordionStatus"> </i>
+      <i class="tim-icons icon-minimal-up" *ngIf="accordionStatus"> </i>
+    </h4>
+    <div class="input-group">
+      <div class="input-group-prepend">
+        <span class="input-group-text"
+          ><i class="tim-icons icon-zoom-split"></i
+        ></span>
+      </div>
+      <input
+        id="search-text"
+        [(ngModel)]="searchText"
+        (input)="searchForThis()"
+        class="form-control"
+        placeholder="Buscar ..."
+        type="seach"
+        autofocus
+      />
+    </div>
+  </accordion-group>
+</accordion>

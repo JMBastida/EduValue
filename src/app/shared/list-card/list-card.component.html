@@ -1,0 +1,104 @@
+<div class="card m-3">
+  <div class="card-header">
+    <tabset class="nav-tabs-danger">
+      <tab>
+        <ng-template tabHeading>
+          <i class="tim-icons icon-spaceship"> </i> General
+        </ng-template>
+        <div class="row">
+          <div class="col-6 mb-4">
+            <img
+              alt="Circle image"
+              class="img-fluid rounded-circle shadow"
+              src="{{ img }}"
+              style="width: 100px"
+            />
+          </div>
+          <div class="col-6">
+            <p
+              class="text-left d-block text-uppercase font-weight-bold mb-2"
+              >{{ university.universidad }}</p
+            >
+            <span class="badge badge-info mr-1">
+              {{ university.codigo_universidad }}
+            </span>
+            <span class="badge badge-default mr-1">
+              {{ university.provincia_sede }}
+            </span>
+            <span class="badge badge-primary mr-1">
+              {{ university.tipo_universidad }}
+            </span>
+            <span class="badge badge-warning mr-1">
+              {{ university.presencialidad }}
+            </span>
+          </div>
+        </div>
+        <div class="progress-container progress-neutral">
+          <span class="progress-badge"> Valoración general </span>
+          <progressbar
+            class="progress-bar-neutral"
+            [value]="60"
+            [animate]="true"
+          >
+            <span class="progress-value"> Aprobado </span>
+          </progressbar>
+        </div>
+      </tab>
+      <tab>
+        <ng-template tabHeading>
+          <i class="tim-icons icon-shape-star"> </i> Valoraciones
+        </ng-template>
+        <p
+              class="text-center d-block text-uppercase font-weight-bold mb-2"
+              >{{ university.universidad }}</p
+            >
+        <div class="progress-container progress-danger">
+          <span class="progress-badge"> Accesibilidad centro </span>
+          <progressbar
+            class="progress-bar-danger"
+            [value]="30"
+            [animate]="true"
+          >
+            <span class="progress-value"> Aprobado </span>
+          </progressbar>
+        </div>
+        <div class="progress-container progress-warning">
+          <span class="progress-badge"> Infraestructura </span>
+          <progressbar
+            class="progress-bar-warning"
+            [value]="50"
+            [animate]="true"
+          >
+            <span class="progress-value"> Aprobado </span>
+          </progressbar>
+        </div>
+        <div class="progress-container progress-primary">
+          <span class="progress-badge"> Empleabilidad egresados </span>
+          <progressbar
+            class="progress-bar-primary"
+            [value]="60"
+            [animate]="true"
+          >
+            <span class="progress-value"> Aprobado </span>
+          </progressbar>
+        </div>
+        <div class="progress-container progress-info">
+          <span class="progress-badge"> Presencia erasmus </span>
+          <progressbar class="progress-bar-info" [value]="60" [animate]="true">
+            <span class="progress-value"> Aprobado </span>
+          </progressbar>
+        </div>
+        <div class="progress-container progress-success">
+          <span class="progress-badge"> Masters </span>
+          <progressbar
+            class="progress-bar-success"
+            [value]="60"
+            [animate]="true"
+          >
+            <span class="progress-value"> Aprobado </span>
+          </progressbar>
+        </div>
+      </tab>
+    </tabset>
+  </div>
+</div>

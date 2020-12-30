@@ -1,0 +1,18 @@
+<div class="input-group"
+[ngClass]="{ 'input-group-focus': focus === true }">
+  <div class="input-group-prepend">
+    <span class="input-group-text"
+      ><i class="tim-icons icon-zoom-split"></i
+    ></span>
+  </div>
+  <input
+    id="search-text"
+    [(ngModel)]="searchText"
+    (input)="searchForThis()"
+    class="form-control"
+    placeholder="Buscar ..."
+    type="search"
+    (focus)="focus = true"
+    (blur)="focus = false"
+  />
+</div>
