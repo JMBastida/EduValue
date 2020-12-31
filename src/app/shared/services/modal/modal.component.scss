@@ -1,0 +1,51 @@
+.overlay {
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.7);
+	align-items: center;
+	justify-content: center;
+}
+
+.dialog {
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	background-color: white;
+	width: 50%;
+	height: 50%;
+	display: flex;
+	flex-direction: column;
+	padding: 8px;
+}
+.modal-service {
+	position: relative;
+	//display: flex;
+	flex-direction: column;
+	width: 100%;
+	pointer-events: auto;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 0.3rem;
+	outline: 0;
+}
+button.closeModal {
+	padding: 0;
+	background-color: transparent;
+	border: 0;
+	position: absolute;
+}
+
+.closeModal {
+	font-weight: 300;
+	font-size: 28px;
+	line-height: 0.87;
+	right: 15px;
+	top: 15px;
+	color: #1b2e4b;
+	text-shadow: 0 1px 0 #fff;
+	opacity: 0.5;
+}

@@ -17,8 +17,6 @@ import { TabsModule } from "ngx-bootstrap/tabs";
 import { PaginationModule } from "ngx-bootstrap/pagination";
 import { AlertModule } from "ngx-bootstrap/alert";
 import { BsDatepickerModule } from "ngx-bootstrap/datepicker";
-import { CarouselModule } from "ngx-bootstrap/carousel";
-import { ModalModule } from "ngx-bootstrap/modal";
 import { PopoverModule } from "ngx-bootstrap/popover";
 import { FooterComponent } from './views/footer/footer.component';
 import { HeaderComponent } from './home-page/header/header.component';
@@ -27,6 +25,8 @@ import { UniversityFiltersComponent } from './shared/filters/university-filters/
 import { FilterPipe } from './shared/pipes/filter.pipe';
 import { HighlightDirective } from './shared/directives/highlight.directive';
 import { NonUniversityFiltersComponent } from './shared/filters/non-university-filters/non-university-filters.component';
+import { RateModalComponent } from './views/rate-modal/rate-modal.component';
+import { ModalModule } from './shared/services/modal/modal.module';
 
 
 @NgModule({
@@ -38,7 +38,7 @@ import { NonUniversityFiltersComponent } from './shared/filters/non-university-f
     HeaderComponent,
     ListCardComponent,
     UniversityFiltersComponent,
-    FilterPipe, HighlightDirective, NonUniversityFiltersComponent,
+    FilterPipe, HighlightDirective, NonUniversityFiltersComponent, RateModalComponent,
   ],
   imports: [
     BrowserAnimationsModule,
@@ -55,8 +55,7 @@ import { NonUniversityFiltersComponent } from './shared/filters/non-university-f
     PaginationModule.forRoot(),
     AlertModule.forRoot(),
     BsDatepickerModule.forRoot(),
-    CarouselModule.forRoot(),
-    ModalModule.forRoot()
+    ModalModule
   ],
   providers: [],
   bootstrap: [AppComponent]

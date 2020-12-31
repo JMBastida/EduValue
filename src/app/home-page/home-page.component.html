@@ -1,35 +1,43 @@
-<div class="wrapper index-page">
+<div class="wrapper
+">
   <div class="main">
-  <home-header></home-header>
-  <div class="row justify-content-center">
-    <div class="col-auto">
-      <tabset type="pills" class="nav-pills-danger nav-pills-icons">
-        <tab>
-          <ng-template tabHeading>
-            <i class="tim-icons"
-              ><img width="40px" src="../../assets/img/universidad.png"
-            /></i>
-            Universitarios
-          </ng-template>
-        </tab>
-        <tab>
-          <ng-template tabHeading>
-            <i class="tim-icons"
-              ><img width="40px" src="../../assets/img/colegio.png"
-            /></i>
-            No Universitarios
-          </ng-template>
-        </tab>
-      </tabset>
-    </div>
+    <home-header></home-header>
+
+<div class="row justify-content-center">
+  <div class="col-auto">
+    <tabset type="pills" class="nav-pills-danger nav-pills-icons">
+      <tab>
+        <ng-template tabHeading>
+          <i class="tim-icons"
+            ><img width="40px" src="../../assets/img/universidad.png"
+          /></i>
+          Universitarios
+        </ng-template>
+      </tab>
+      <tab>
+        <ng-template tabHeading>
+          <i class="tim-icons"
+            ><img width="40px" src="../../assets/img/colegio.png"
+          /></i>
+          No Universitarios
+        </ng-template>
+      </tab>
+    </tabset>
   </div>
-  <div class="row justify-content-center text-center">
-    <university-filters (searchcriteria)="searchThis($event)" style="width: 75%;"></university-filters>
+</div>
+<div class="row justify-content-center text-center">
+  <university-filters
+    (searchcriteria)="searchThis($event)"
+    style="width: 55%"
+  ></university-filters>
+</div>
+<div class="row justify-content-center mr-3">
+  <div
+    *ngFor="let item of universitiesList | appFilter: searchFilter"
+    class="col-md-4"
+  >
+    <list-card [university]="item"></list-card>
   </div>
-  <div class="row justify-content-center m-2">
-    <div *ngFor="let item of universitiesList | appFilter: searchFilter" class="col-md-4">
-      <list-card [university]="item"></list-card>
-    </div>
-  </div>
-  </div>
+</div>
+</div>
 </div>
