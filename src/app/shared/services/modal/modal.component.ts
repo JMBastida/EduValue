@@ -45,7 +45,7 @@ export class ModalComponent implements AfterViewInit, OnDestroy {
 		this.close({});
 	}
 
-	onDialogClicked(evt: MouseEvent) {
+	onDialogClicked(evt: MouseEvent) {// this one prevents modal closing when cliking over him
 		evt.stopPropagation();
 	}
 

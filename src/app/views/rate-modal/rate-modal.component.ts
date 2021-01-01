@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { University } from 'src/app/shared/model/university.model';
+import universities from '../../../assets/universities.json';
 import { ModalComponent } from 'src/app/shared/services/modal/modal.component';
 
 @Component({
@@ -8,6 +10,9 @@ import { ModalComponent } from 'src/app/shared/services/modal/modal.component';
 })
 export class RateModalComponent implements OnInit {
 
+  searchFilter: string = '';
+  public universitiesList: University[] = universities;
+
   constructor(private modalComponent: ModalComponent) { }
 
   ngOnInit(): void {
@@ -15,6 +20,11 @@ export class RateModalComponent implements OnInit {
 
   close(data: any) {
     this.modalComponent.close(data);
+  }
+
+  searchThis(data: any) {
+    console.log(data)
+    this.searchFilter = data;
   }
 
 }

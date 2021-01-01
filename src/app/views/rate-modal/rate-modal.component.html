@@ -1,18 +1,46 @@
-    <div class="modal-header justify-content-center">
-      <div class="text-muted text-center ml-auto mr-auto">
-        <h3 class="mb-0">Sign in with</h3>
+<div class="modal-header justify-content-center">
+  <div class="text-muted text-center ml-auto mr-auto">
+    <h3 class="mb-0">Valora tu centro</h3>
+    <small> Valorar objetivamente es lo que ayudará a otros</small>
+  </div>
+</div>
+<div class="modal-body">
+  <div class="row justify-content-center">
+    <div class="col-auto">
+      <tabset type="pills" class="nav-pills-warning nav-pills-icons">
+        <tab>
+          <ng-template tabHeading>
+            <i class="tim-icons"
+              ><img width="40px" src="../../assets/img/universidad.png"
+            /></i>
+            Universitario
+          </ng-template>
+        </tab>
+        <tab>
+          <ng-template tabHeading>
+            <i class="tim-icons"
+              ><img width="40px" src="../../assets/img/colegio.png"
+            /></i>
+            No Universitario
+          </ng-template>
+        </tab>
+      </tabset>
+    </div>
+  </div>
+  <div #universitarios>
+    <div class="row justify-content-center">
+      <university-filters
+        (searchcriteria)="searchThis($event)"
+        style="width: 55%"
+      ></university-filters>
+    </div>
+    <div class="row justify-content-center m-3 university-list text-center">
+      <div
+        *ngFor="let item of universitiesList | appFilter: searchFilter; let i = index"
+        class="col-md-6 p-2"
+      >
+      <button class="btn btn-link" [ngClass]="(i  % 2 == 0)? 'btn-danger': 'btn-warning'">{{item.universidad}}</button>
       </div>
     </div>
-    <div class="modal-body">
-      <div class="btn-wrapper text-center">
-        <a class="btn btn-neutral btn-icon mr-1" href="javascript:void(0)">
-          <img src="assets/img/github.svg" />
-        </a>
-        <a class="btn btn-neutral btn-icon" href="javascript:void(0)">
-          <img src="assets/img/google.svg" />
-        </a>
-      </div>
-      <div class="text-center text-muted mb-4 mt-3">
-        <small> Or sign in with credentials </small>
-      </div>
-    </div>
+  </div>
+</div>
