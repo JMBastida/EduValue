@@ -39,7 +39,7 @@
         *ngFor="let item of universitiesList | appFilter: searchFilter; let i = index"
         class="col-md-6 p-2"
       >
-      <button class="btn btn-link" [ngClass]="(i  % 2 == 0)? 'btn-danger': 'btn-warning'">{{item.universidad}}</button>
+      <a [routerLink]="['/universidad/', item.codigo_universidad]" class="btn btn-link" role="button" [ngClass]="(i  % 2 == 0)? 'btn-danger': 'btn-warning'" (click)="close($event)">{{item.universidad}}</a>
       </div>
     </div>
   </div>

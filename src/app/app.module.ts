@@ -27,6 +27,8 @@ import { HighlightDirective } from './shared/directives/highlight.directive';
 import { NonUniversityFiltersComponent } from './shared/filters/non-university-filters/non-university-filters.component';
 import { RateModalComponent } from './views/rate-modal/rate-modal.component';
 import { ModalModule } from './shared/services/modal/modal.module';
+import { RatingComponent } from './rating/rating.component';
+import { RateCardComponent } from './rating/rate-card/rate-card.component';
 
 
 @NgModule({
@@ -38,7 +40,7 @@ import { ModalModule } from './shared/services/modal/modal.module';
     HeaderComponent,
     ListCardComponent,
     UniversityFiltersComponent,
-    FilterPipe, HighlightDirective, NonUniversityFiltersComponent, RateModalComponent,
+    FilterPipe, HighlightDirective, NonUniversityFiltersComponent, RateModalComponent, RatingComponent, RateCardComponent,
   ],
   imports: [
     BrowserAnimationsModule,

@@ -1,0 +1,30 @@
+<div class="card">
+  <div class="card-header rate-title">
+    {{ title }}
+    <button
+      *ngIf="desc"
+      class="btn btn-icon btn-round btn-tooltip info"
+      placement="top"
+      tooltip="{{desc}}"
+    >
+    <i class="tim-icons icon-bulb-63"></i>
+    </button>
+  </div>
+
+  <div class="row box">
+    <button
+      class="btn btn-fab btn-icon btn-round"
+      (click)="countSelector(1)"
+      [ngClass]="['btn-' + style, status == 1 ? '' : 'btn-simple']"
+    >
+      <i class="tim-icons icon-simple-add"></i>
+    </button>
+    <button
+      class="btn btn-fab btn-icon btn-round"
+      (click)="countSelector(-1)"
+      [ngClass]="['btn-' + style, status == -1 ? '' : 'btn-simple']"
+    >
+      <i class="tim-icons icon-simple-delete"></i>
+    </button>
+  </div>
+</div>

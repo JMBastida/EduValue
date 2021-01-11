@@ -8,6 +8,7 @@ import { University } from '../model/university.model';
 })
 export class ListCardComponent implements OnInit {
   @Input()university!: University;
+  @Input()ratesActive: boolean = false;
 
   img = '../../../assets/img/james.jpg';
   caracteristicas = {

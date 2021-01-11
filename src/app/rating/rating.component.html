@@ -1,0 +1,75 @@
+<div class="rating-page row">
+  <div class="col-md-5 mt-5">
+    <list-card [university]="university" [ratesActive]="true"></list-card>
+  </div>
+  <div class="col-md-7 mt-5">
+    <div class="row m-3">
+      <div class="col-md-3">
+        <rate-card
+          [title]="'Transporte'"
+          [style]="'danger'"
+          [desc]="'Transporte publico o carriles bici'"
+        ></rate-card>
+      </div>
+      <div class="col-md-3">
+        <rate-card [title]="'Aparcamiento'" [style]="'danger'"></rate-card>
+      </div>
+      <div class="col-md-3">
+        <rate-card [title]="'Calidad Aulas'" [style]="'warning'"></rate-card>
+      </div>
+      <div class="col-md-3">
+        <rate-card [title]="'Biblioteca'" [style]="'warning'"></rate-card>
+      </div>
+      <div class="col-md-3">
+        <rate-card [title]="'Residencias'" [style]="'warning'"></rate-card>
+      </div>
+      <div class="col-md-3">
+        <rate-card [title]="'Prácticas'" [style]="'primary'"></rate-card>
+      </div>
+      <div class="col-md-3">
+        <rate-card [title]="'Becas titulados'" [style]="'primary'"></rate-card>
+      </div>
+      <div class="col-md-3">
+        <rate-card [title]="'Variedad'" [style]="'success'"></rate-card>
+      </div>
+      <div class="col-md-4">
+        <rate-card
+          [title]="'Masters de calidad'"
+          [style]="'success'"
+          [desc]="'¿Especializan realmente?'"
+        ></rate-card>
+      </div>
+
+      <div class="col-md-4">
+        <rate-card
+          [title]="'Intercambios'"
+          [style]="'info'"
+          [desc]="'¿Hay tipos de programas y suficientes localizaciones?'"
+        ></rate-card>
+      </div>
+      <div class="col-md-4">
+        <rate-card
+          [title]="'Estudiantes extranjeros'"
+          [style]="'info'"
+          [desc]="'¿Hay pocos estudiantes extranjeros?'"
+        ></rate-card>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-11 m-5 blur-hover">
+    <h4>Añadir comentario</h4>
+    <span class="blur-hidden h5 text-danger">
+      Para dejar tu comentario debes iniciar sesión
+    </span>
+    <textarea
+      disabled
+      class="form-control blur-item on-screen"
+      placeholder="Deja tu opinión global para ayudar más"
+      type="text"
+      value=""
+      cols="30"
+      rows="5"
+      maxlength="500"
+    ></textarea>
+  </div>
+</div>

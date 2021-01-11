@@ -1,4 +1,4 @@
-<div class="card m-3">
+<div class="card">
   <div class="card-header">
     <tabset class="nav-tabs-danger">
       <tab>
@@ -9,8 +9,8 @@
           <div class="col-6 mb-4">
             <img
               alt="Circle image"
-              class="img-fluid rounded-circle shadow"
-              src="{{ img }}"
+              class="img-thumbnail rounded shadow"
+              src="../../../{{ university.img }}"
               style="width: 100px"
             />
           </div>
@@ -44,7 +44,7 @@
           </progressbar>
         </div>
       </tab>
-      <tab>
+      <tab [active]="ratesActive">
         <ng-template tabHeading>
           <i class="tim-icons icon-shape-star"> </i> Valoraciones
         </ng-template>
@@ -83,7 +83,7 @@
           </progressbar>
         </div>
         <div class="progress-container progress-info">
-          <span class="progress-badge"> Presencia erasmus </span>
+          <span class="progress-badge"> Internacionalidad </span>
           <progressbar class="progress-bar-info" [value]="60" [animate]="true">
             <span class="progress-value"> Aprobado </span>
           </progressbar>

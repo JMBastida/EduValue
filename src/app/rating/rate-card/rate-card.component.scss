@@ -1,0 +1,23 @@
+.box {
+  display: flex;
+  justify-content: space-between;
+  padding: 1px 20%;
+  margin-bottom: 3px;
+}
+.rate-title{
+ text-align: center;
+ font-weight: bold;
+ font-size: small;
+ margin-bottom: 3px;
+}
+.info {
+  height:15px;
+  width: 2px;
+  padding: 0%;
+  font-size: 90%;
+  background-color: transparent!important;
+  background: transparent;
+  position: absolute;
+  top:2px;
+  right: -5px;
+}
