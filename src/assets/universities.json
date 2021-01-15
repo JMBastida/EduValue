@@ -149,7 +149,7 @@
     "tipo_universidad": "Pública",
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Andalucía",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/andalucia/logo-vector-universidad-sevilla-todocolor.jpg"
   },
   {
     "universidad": "València (Estudi General)",
@@ -158,7 +158,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Comunitat Valenciana",
     "provincia_sede": "VALENCIA/VALÈNCIA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/logo-vector-universidad-valencia.jpg"
   },
   {
     "universidad": "Valladolid",
@@ -167,7 +167,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Castilla y León",
     "provincia_sede": "VALLADOLID",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/castilla-leon/logo-vector-universidad-valladolid.jpg"
   },
   {
     "universidad": "País Vasco/Euskal Herriko Unibertsitatea",
@@ -176,7 +176,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "País Vasco",
     "provincia_sede": "BIZKAIA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/pais-vasco/logo-vector-universidad-pais-vasco.jpg"
   },
   {
     "universidad": "Zaragoza",
@@ -185,7 +185,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Aragón",
     "provincia_sede": "ZARAGOZA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/aragon/logo-vector-universidad-zaragoza.jpg"
   },
   {
     "universidad": "Autónoma de Barcelona",
@@ -194,7 +194,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Cataluña",
     "provincia_sede": "BARCELONA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/catalunya/logo-vector-uab.jpg"
   },
   {
     "universidad": "Autónoma de Madrid",
@@ -203,7 +203,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Madrid (Comunidad de)",
     "provincia_sede": "MADRID",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/madrid/logo-vector-uam-horizontal.jpg"
   },
   {
     "universidad": "Politécnica de Catalunya",
@@ -212,7 +212,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Cataluña",
     "provincia_sede": "BARCELONA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/catalunya/logo-vector-universitat-politecnica-catalunya.jpg"
   },
   {
     "universidad": "Politécnica de Madrid",
@@ -221,7 +221,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Madrid (Comunidad de)",
     "provincia_sede": "MADRID",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/madrid/logo-vector-universidad-politecnica-madrid.jpg"
   },
   {
     "universidad": "Las Palmas de Gran Canaria",
@@ -230,7 +230,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Canarias",
     "provincia_sede": "LAS PALMAS",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/canarias/logo-vector-ulpgc.jpg"
   },
   {
     "universidad": "Politècnica de València",
@@ -239,7 +239,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Comunitat Valenciana",
     "provincia_sede": "VALENCIA/VALÈNCIA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/logo-vector-universitat-politecnica-valencia.jpg"
   },
   {
     "universidad": "Nacional de Educación a Distancia",
@@ -247,8 +247,8 @@
     "tipo_universidad": "Pública",
     "presencialidad": "No Presencial",
     "comunidad_autonoma": "Estado",
-    "provincia_sede": "MADRID",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "provincia_sede": "Estado",
+    "img":"assets/universidades/madrid/logo_uned.jpg"
   },
   {
     "universidad": "Alcalá",
@@ -257,7 +257,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Madrid (Comunidad de)",
     "provincia_sede": "MADRID",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/madrid/logo-vector-universidad-alcala.jpg"
   },
   {
     "universidad": "Deusto",
@@ -266,7 +266,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "País Vasco",
     "provincia_sede": "BIZKAIA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/pais-vasco/logo-vector-universidad-deusto.jpg"
   },
   {
     "universidad": "Navarra",
@@ -275,7 +275,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Navarra (Comunidad Foral de)",
     "provincia_sede": "NAVARRA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/navarra/logo-vector-universidad-navarra.jpg"
   },
   {
     "universidad": "Pontificia de Salamanca",
@@ -284,7 +284,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Castilla y León",
     "provincia_sede": "SALAMANCA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/castilla-leon/logo-vector-universidad-pontificia-salamanca.jpg"
   },
   {
     "universidad": "Pontificia Comillas",
@@ -293,7 +293,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Madrid (Comunidad de)",
     "provincia_sede": "MADRID",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/madrid/logo-vector-universidad-pontificia-de-comillas.jpg"
   },
   {
     "universidad": "Castilla_La Mancha",
@@ -302,7 +302,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Castilla _ La Mancha",
     "provincia_sede": "CIUDAD REAL",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/logo-vector-uclm.jpg"
   },
   {
     "universidad": "Pública de Navarra",
@@ -311,7 +311,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Navarra (Comunidad Foral de)",
     "provincia_sede": "NAVARRA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/navarra/logo-vector_universidad-publica-navarra.jpg"
   },
   {
     "universidad": "Carlos III de Madrid",
@@ -320,7 +320,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Madrid (Comunidad de)",
     "provincia_sede": "MADRID",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/madrid/logo-vector-universidad-carlos-iii-de-madrid.jpg"
   },
   {
     "universidad": "A Coruña",
@@ -329,7 +329,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Galicia",
     "provincia_sede": "A CORUÑA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/galicia/logo-vector-universidade-da-coruna.jpg"
   },
   {
     "universidad": "Vigo",
@@ -338,7 +338,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Galicia",
     "provincia_sede": "PONTEVEDRA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/galicia/logo-vector-universidade-vigo.jpg"
   },
   {
     "universidad": "Pompeu Fabra",
@@ -347,7 +347,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Cataluña",
     "provincia_sede": "BARCELONA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/catalunya/logo-vector-universitat-pompeu-fabra.jpg"
   },
   {
     "universidad": "Jaume I de Castellón",
@@ -365,7 +365,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Cataluña",
     "provincia_sede": "BARCELONA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/catalunya/logo-vector-universitat-ramon-llull-1.jpg"
   },
   {
     "universidad": "Rovira i Virgili",
@@ -374,7 +374,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Cataluña",
     "provincia_sede": "TARRAGONA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/catalunya/logo-vector-universitat-rovira-i-virgili.jpg"
   },
   {
     "universidad": "Girona",
@@ -383,7 +383,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Cataluña",
     "provincia_sede": "GIRONA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/catalunya/logo-vector-universitat-de-girona-siglas.jpg"
   },
   {
     "universidad": "Lleida",
@@ -392,7 +392,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Cataluña",
     "provincia_sede": "LLEIDA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/catalunya/logo-vector-universitat-lleida.jpg"
   },
   {
     "universidad": "La Rioja",
@@ -401,7 +401,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Rioja (La)",
     "provincia_sede": "LA RIOJA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/la-rioja/logo-vector-universidad-la-rioja-horizontal.jpg"
   },
   {
     "universidad": "San Pablo_CEU",
@@ -410,7 +410,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Madrid (Comunidad de)",
     "provincia_sede": "MADRID",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/madrid/logo-vector-universidad-san-pablo-ceu.jpg"
   },
   {
     "universidad": "Alfonso X El Sabio",
@@ -419,7 +419,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Madrid (Comunidad de)",
     "provincia_sede": "MADRID",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/madrid/logo-vector_universidad-alfonso-x-el-sabio.jpg"
   },
   {
     "universidad": "Almería",
@@ -428,7 +428,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Andalucía",
     "provincia_sede": "ALMERÍA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/andalucia/logo-vector_universidad-de-almeria.jpg"
   },
   {
     "universidad": "Huelva",
@@ -437,7 +437,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Andalucía",
     "provincia_sede": "HUELVA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/andalucia/logo-vector-universidad-huelva-vertical.jpg"
   },
   {
     "universidad": "Jaén",
@@ -446,7 +446,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Andalucía",
     "provincia_sede": "JAÉN",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/andalucia/logo-vector-universidad-de-jaen-tradicional.jpg"
   },
   {
     "universidad": "Burgos",
@@ -455,7 +455,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Castilla y León",
     "provincia_sede": "BURGOS",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/castilla-leon/logo-vector-universidad-de-burgos.jpg"
   },
   {
     "universidad": "Antonio de Nebrija",
@@ -464,7 +464,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Madrid (Comunidad de)",
     "provincia_sede": "MADRID",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/madrid/logo-vector-universidad-nebrija.jpg"
   },
   {
     "universidad": "Europea de Madrid",
@@ -473,7 +473,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Madrid (Comunidad de)",
     "provincia_sede": "MADRID",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/madrid/logo-vector_universidad-europea.jpg"
   },
   {
     "universidad": "Oberta de Catalunya",
@@ -482,7 +482,7 @@
     "presencialidad": "No Presencial",
     "comunidad_autonoma": "Cataluña",
     "provincia_sede": "BARCELONA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/catalunya/logo-vector-universitat-oberta-de-catalunya-3-lineas.jpg"
   },
   {
     "universidad": "Miguel Hernández de Elche",
@@ -491,7 +491,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Comunitat Valenciana",
     "provincia_sede": "ALICANTE/ALACANT",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/logo-vector_universidad-miguel-hernandez.jpg"
   },
   {
     "universidad": "Rey Juan Carlos",
@@ -500,7 +500,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Madrid (Comunidad de)",
     "provincia_sede": "MADRID",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/madrid/logo-vector-universidad-rey-juan-carlos.jpg"
   },
   {
     "universidad": "IE universidad",
@@ -509,7 +509,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Castilla y León",
     "provincia_sede": "SEGOVIA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/castilla-leon/ie-university.png"
   },
   {
     "universidad": "Pablo de Olavide",
@@ -518,7 +518,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Andalucía",
     "provincia_sede": "SEVILLA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/andalucia/logo-vector-universidad-pablo-olavide-vertical.jpg"
   },
   {
     "universidad": "Católica Santa Teresa de Jesús de Ávila",
@@ -527,7 +527,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Castilla y León",
     "provincia_sede": "ÁVILA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/castilla-leon/logo-vector-universidad-avila.jpg"
   },
   {
     "universidad": "Vic_Central de Catalunya",
@@ -536,7 +536,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Cataluña",
     "provincia_sede": "BARCELONA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/catalunya/logo-vector-universitat-de-vic.jpg"
   },
   {
     "universidad": "Mondragón Unibertsitatea",
@@ -545,7 +545,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "País Vasco",
     "provincia_sede": "GIPUZKOA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/pais-vasco/logo-vector_mondragon-unibertsitatea.jpg"
   },
   {
     "universidad": "Internacional de Catalunya",
@@ -554,7 +554,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Cataluña",
     "provincia_sede": "BARCELONA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/catalunya/logo-vector-universidad-internacional-catalunya.jpg"
   },
   {
     "universidad": "Internacional de Andalucía",
@@ -563,7 +563,7 @@
     "presencialidad": "Especial",
     "comunidad_autonoma": "Andalucía",
     "provincia_sede": "SEVILLA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/andalucia/logo-vector-universidad-internacional-andalucia-verdes.jpg"
   },
   {
     "universidad": "Politécnica de Cartagena",
@@ -572,7 +572,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Murcia (Región de)",
     "provincia_sede": "MURCIA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/murcia/logo-vector-universidad-politecnica-cartagena.jpg"
   },
   {
     "universidad": "Camilo José Cela",
@@ -581,7 +581,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Madrid (Comunidad de)",
     "provincia_sede": "MADRID",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/madrid/logo-vector-universidad-camilo-jose-cela.jpg"
   },
   {
     "universidad": "Católica San Antonio",
@@ -590,7 +590,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Murcia (Región de)",
     "provincia_sede": "MURCIA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/murcia/logo-vector-universidad-catolica-san-antonio-vertical.jpg"
   },
   {
     "universidad": "Cardenal Herrera_CEU",
@@ -599,7 +599,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Comunitat Valenciana",
     "provincia_sede": "VALENCIA/VALÈNCIA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/logo-vector-universidad-ceu.jpg"
   },
   {
     "universidad": "Francisco de Vitoria",
@@ -608,7 +608,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Madrid (Comunidad de)",
     "provincia_sede": "MADRID",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/madrid/logo-vector-universidad-francisco-vitoria.jpg"
   },
   {
     "universidad": "Europea Miguel de Cervantes",
@@ -617,7 +617,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Castilla y León",
     "provincia_sede": "VALLADOLID",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/castilla-leon/logo-vector-universidad-miguel-cervantes.jpg"
   },
   {
     "universidad": "Abat Oliba CEU",
@@ -626,7 +626,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Cataluña",
     "provincia_sede": "BARCELONA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/catalunya/logo-vector-universidad-abat-oliba-ceu.jpg"
   },
   {
     "universidad": "Internacional Menéndez Pelayo",
@@ -635,7 +635,7 @@
     "presencialidad": "Especial",
     "comunidad_autonoma": "Estado",
     "provincia_sede": "MADRID",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/cantabria/logo-vector-universidad-internacional-menendez-pelayo.jpg"
   },
   {
     "universidad": "Católica de Valencia San Vicente Mártir",
@@ -644,7 +644,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Comunitat Valenciana",
     "provincia_sede": "VALENCIA/VALÈNCIA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/logo-vector_universidad-catolica-valencia-san-vicente-martir.jpg"
   },
   {
     "universidad": "San Jorge",
@@ -653,7 +653,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Aragón",
     "provincia_sede": "ZARAGOZA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/aragon/logo-vector-universidad-san-jorge.jpg"
   },
   {
     "universidad": "A Distancia de Madrid",
@@ -662,7 +662,7 @@
     "presencialidad": "No Presencial",
     "comunidad_autonoma": "Madrid (Comunidad de)",
     "provincia_sede": "MADRID",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/madrid/logo-vector-universidad-a-distancia-madrid.jpg"
   },
   {
     "universidad": "Internacional Valenciana",
@@ -671,7 +671,7 @@
     "presencialidad": "No Presencial",
     "comunidad_autonoma": "Comunitat Valenciana",
     "provincia_sede": "VALENCIA/VALÈNCIA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/logo-vector_viu.jpg"
   },
   {
     "universidad": "Internacional de La Rioja",
@@ -680,7 +680,7 @@
     "presencialidad": "No Presencial",
     "comunidad_autonoma": "Rioja (La)",
     "provincia_sede": "LA RIOJA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/la-rioja/logo-vector-universidad-internacional-la-rioja.jpg"
   },
   {
     "universidad": "Europea de Canarias",
@@ -689,7 +689,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Canarias",
     "provincia_sede": "SANTA CRUZ DE TENERIFE",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/madrid/logo-vector_universidad-europea.jpg"
   },
   {
     "universidad": "Internacional Isabel I de Castilla",
@@ -698,7 +698,7 @@
     "presencialidad": "No Presencial",
     "comunidad_autonoma": "Castilla y León",
     "provincia_sede": "BURGOS",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/castilla-leon/logo-vector-universidad-isabel-i.jpg"
   },
   {
     "universidad": "Loyola Andalucía",
@@ -707,7 +707,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Andalucía",
     "provincia_sede": "SEVILLA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/andalucia/logo-vectorial-universidad-loyola-andalucia.jpg"
   },
   {
     "universidad": "Europea de Valencia",
@@ -716,7 +716,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Comunitat Valenciana",
     "provincia_sede": "VALENCIA/VALÈNCIA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/madrid/logo-vector_universidad-europea.jpg"
   },
   {
     "universidad": "Europea del Atlántico",
@@ -725,7 +725,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Cantabria",
     "provincia_sede": "CANTABRIA",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/cantabria/logo-vector-universidad-europea-del-atlantico.jpg"
   },
   {
     "universidad": "Fernando Pessoa_Canarias (UFP_C)",
@@ -734,7 +734,7 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Canarias",
     "provincia_sede": "LAS PALMAS",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/canarias/logo-vector-universidad-fernando-pessoa-canarias.jpg"
   },
   {
     "universidad": "Atlántico Medio",
@@ -743,6 +743,6 @@
     "presencialidad": "Presencial",
     "comunidad_autonoma": "Canarias",
     "provincia_sede": "LAS PALMAS",
-    "img":"assets/universidades/canarias/logo-vector-universidad-de-la-laguna.jpg"
+    "img":"assets/universidades/canarias/universidad-del-atlantico-medio.jpg"
   }
 ]

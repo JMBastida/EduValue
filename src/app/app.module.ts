@@ -29,6 +29,7 @@ import { RateModalComponent } from './views/rate-modal/rate-modal.component';
 import { ModalModule } from './shared/services/modal/modal.module';
 import { RatingComponent } from './rating/rating.component';
 import { RateCardComponent } from './rating/rate-card/rate-card.component';
+import { GoogleButtonComponent } from './shared/google-button/google-button.component';
 
 
 @NgModule({
@@ -40,7 +41,7 @@ import { RateCardComponent } from './rating/rate-card/rate-card.component';
     HeaderComponent,
     ListCardComponent,
     UniversityFiltersComponent,
-    FilterPipe, HighlightDirective, NonUniversityFiltersComponent, RateModalComponent, RatingComponent, RateCardComponent,
+    FilterPipe, HighlightDirective, NonUniversityFiltersComponent, RateModalComponent, RatingComponent, RateCardComponent, GoogleButtonComponent,
   ],
   imports: [
     BrowserAnimationsModule,

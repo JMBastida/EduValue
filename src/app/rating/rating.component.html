@@ -2,34 +2,34 @@
   <div class="col-md-5 mt-5">
     <list-card [university]="university" [ratesActive]="true"></list-card>
   </div>
-  <div class="col-md-7 mt-5">
-    <div class="row m-3">
-      <div class="col-md-3">
+  <div class="col-12 col-md-7 mt-5">
+    <div class="row">
+      <div class="col-6 col-md-3">
         <rate-card
           [title]="'Transporte'"
           [style]="'danger'"
           [desc]="'Transporte publico o carriles bici'"
         ></rate-card>
       </div>
-      <div class="col-md-3">
+      <div class="col-6 col-md-3">
         <rate-card [title]="'Aparcamiento'" [style]="'danger'"></rate-card>
       </div>
-      <div class="col-md-3">
+      <div class="col-6 col-md-3">
         <rate-card [title]="'Calidad Aulas'" [style]="'warning'"></rate-card>
       </div>
-      <div class="col-md-3">
+      <div class="col-6 col-md-3">
         <rate-card [title]="'Biblioteca'" [style]="'warning'"></rate-card>
       </div>
-      <div class="col-md-3">
+      <div class="col-6 col-md-3">
         <rate-card [title]="'Residencias'" [style]="'warning'"></rate-card>
       </div>
-      <div class="col-md-3">
+      <div class="col-6 col-md-3">
         <rate-card [title]="'Prácticas'" [style]="'primary'"></rate-card>
       </div>
-      <div class="col-md-3">
+      <div class="col-6 col-md-3">
         <rate-card [title]="'Becas titulados'" [style]="'primary'"></rate-card>
       </div>
-      <div class="col-md-3">
+      <div class="col-6 col-md-3">
         <rate-card [title]="'Variedad'" [style]="'success'"></rate-card>
       </div>
       <div class="col-md-4">
@@ -56,11 +56,15 @@
       </div>
     </div>
   </div>
-  <div class="col-md-11 m-5 blur-hover">
+  <div class="col-md-11 col-sm-12 m-3 blur-hover">
     <h4>Añadir comentario</h4>
-    <span class="blur-hidden h5 text-danger">
-      Para dejar tu comentario debes iniciar sesión
-    </span>
+    <div class="blur-hidden">
+      <app-google-button></app-google-button>
+      <span class="h5 text-neutral">
+        Para dejar tu comentario debes iniciar sesión
+      </span>
+    </div>
+
     <textarea
       disabled
       class="form-control blur-item on-screen"
