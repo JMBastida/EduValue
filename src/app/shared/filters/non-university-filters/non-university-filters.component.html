@@ -1,25 +1,66 @@
 <accordion [isAnimated]="true">
-  <accordion-group class="w-100">
-    <h4 accordion-heading (click)="accordionStatus = !accordionStatus">
-      Filtros de Busqueda
+  <accordion-group  [isOpen]="accordionStatus" (isOpenChange)="accordionManage($event)" class="w-100 justify-content-center">
+    <h4 accordion-heading>
+      <b>Filtros de Búsqueda </b>
       <i class="tim-icons icon-minimal-down" *ngIf="!accordionStatus"> </i>
       <i class="tim-icons icon-minimal-up" *ngIf="accordionStatus"> </i>
     </h4>
-    <div class="input-group">
-      <div class="input-group-prepend">
-        <span class="input-group-text"
-          ><i class="tim-icons icon-zoom-split"></i
-        ></span>
+    <div class="row">
+      <div class="col-7 col-md-5">
+        <select
+          [(ngModel)]="selectedRegion"
+          class="custom-select"
+          aria-label="Default select example"
+        >
+          <option
+            *ngFor="let autonomy of comunidades; let i = index"
+            value="{{ i }}"
+          >
+            {{ autonomy.nombre }}
+          </option>
+        </select>
       </div>
-      <input
-        id="search-text"
-        [(ngModel)]="searchText"
-        (input)="searchForThis()"
-        class="form-control"
-        placeholder="Buscar ..."
-        type="seach"
-        autofocus
-      />
+      <div class="col-5 col-md-4">
+        <select
+          [(ngModel)]="selectedProvince"
+          class="custom-select"
+          aria-label="Default select example"
+        >
+          <option
+            *ngFor="
+              let province of comunidades[selectedRegion].provincias;
+              let i = index
+            "
+            value="{{ i }}"
+          >
+            {{ province }}
+          </option>
+        </select>
+      </div>
+      <div class="col-12 col-md-3">
+        <div
+          class="input-group"
+          [ngClass]="{ 'input-group-focus': focus === true }"
+        >
+          <div class="input-group-prepend">
+            <span class="input-group-text"
+              ><i class="tim-icons icon-square-pin"></i
+            ></span>
+          </div>
+          <input
+            id="search-text"
+            [(ngModel)]="searchText"
+            class="form-control"
+            placeholder="Código Postal"
+            type="number"
+            (focus)="focus = true"
+            (blur)="focus = false"
+          />
+        </div>
+      </div>
+      <div class="col-12 ">
+        <button type="button" class="btn btn-danger"> <i class="tim-icons icon-zoom-split"></i> <b> BUSCAR</b></button>
+      </div>
     </div>
   </accordion-group>
 </accordion>
